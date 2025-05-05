@@ -172,3 +172,35 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ===== C# / .NET / Unity =====
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+
+# Unity specific (if using Unity)
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+*.unityproj
+*.pidb
+*.booproj
+
+# ===== C++ =====
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+
+# ===== VS Code / IDEs =====
+.vscode/
+.idea/
+
+# ===== OS-specific stuff =====
+.DS_Store
+Thumbs.db
