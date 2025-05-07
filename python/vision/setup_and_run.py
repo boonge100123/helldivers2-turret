@@ -24,7 +24,8 @@ else:
 # 2. Install dependencies
 print("📦 Installing dependencies...")
 subprocess.check_call([str(python_exe), "-m", "pip", "install", "--upgrade", "pip"])
-subprocess.check_call([str(python_exe), "-m", "pip", "install", "-r", "requirements.txt"])
+req_path = Path(__file__).parent / "requirements.txt"
+subprocess.check_call([str(python_exe), "-m", "pip", "install", "-r", str(req_path)])
 
 # 3. Mark setup as complete
 flag_file.write_text("Setup complete")
