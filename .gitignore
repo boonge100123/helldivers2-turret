@@ -204,3 +204,9 @@ cython_debug/
 # ===== OS-specific stuff =====
 .DS_Store
 Thumbs.db
+
+# ===== YOLOv5 Inference Output & Cache =====
+python/vision/yolov5/runs/
+python/vision/yolov5/__pycache__/
+python/vision/yolov5/*.pyc
+python/vision/yolov5/data/
