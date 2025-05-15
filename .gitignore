@@ -210,3 +210,22 @@ python/vision/yolov5/runs/
 python/vision/yolov5/__pycache__/
 python/vision/yolov5/*.pyc
 python/vision/yolov5/data/
+
+# === Custom project specific additions ===
+
+# YOLOv5 models
+*.pt
+
+# Local virtual env for vision
+python/vision/helldivers_vision_env/
+
+# YOLOv5 cache & runs
+python/vision/yolov5/runs/
+python/vision/yolov5/__pycache__/
+python/vision/yolov5/*.pyc
+
+# Personal temp files (optional if you don't want them in git)
+python/vision/project_structure
+python/vision/setup_and_run
+
+
